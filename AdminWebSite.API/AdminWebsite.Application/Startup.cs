@@ -73,6 +73,8 @@ namespace AdminWebsite.Application
                 app.UseHsts();
             }
 
+            //this is my omment
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
