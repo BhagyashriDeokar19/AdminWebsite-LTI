@@ -83,7 +83,7 @@ namespace AdminWebsite.Application
                                                                         .AllowAnyHeader()
                                                                         .AllowCredentials()
                                                                         );
-            app.UseAuthentication();
+            app.UseAuthentication(); 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
